@@ -21,4 +21,9 @@ let lizard = {
 // const singLizard = dragon.sing.bind(lizard)
 // console.log(singLizard())
 lizard.__proto__ = dragon // funciona como herencia "lizard" hereda todos los metodos de dragon
-console.log(lizard.fight())
+// console.log(lizard.fight())
+for (let prop in lizard) {
+    if (lizard.hasOwnProperty(prop)) {
+        console.log(prop)
+    }
+}
