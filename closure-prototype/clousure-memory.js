@@ -21,4 +21,3 @@ const getheavyDuty = heavyDutyv2()
 getheavyDuty(688)
 getheavyDuty(700)
 getheavyDuty(800)
-// encapsulation
