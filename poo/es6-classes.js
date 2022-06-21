@@ -1,3 +1,4 @@
+// classes are objects in javascript
 class Elf {
     constructor(name, weapon) {
         this.name = name
