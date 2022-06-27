@@ -35,7 +35,7 @@ class HashTable {
     }
 }
 
-const myHashTable = new HashTable(2);
+const myHashTable = new HashTable(50);
 myHashTable.set('grapes', 100)
 myHashTable.set('name', 'raul')
 console.log(myHashTable.get('name'))
